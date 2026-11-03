@@ -1,0 +1,3 @@
+Finlytic is a cloud platform that helps lenders and NBFCs automate loan underwriting with APIs. We raised our Series B in March to expand across India and Southeast Asia.
+Our enterprise customers now ask for SOC 2 Type II reports before signing, and we have begun our audit readiness programme with a 120-person team.
+Trusted by 60 financial institutions. Book a demo to see underwriting automation in action.

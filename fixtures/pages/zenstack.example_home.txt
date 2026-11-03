@@ -1,0 +1,3 @@
+Zenstack provides subscription observability software for engineering teams, with metrics, traces and alerting in one dashboard. We closed our Series C last year and now have 400 employees.
+Our enterprise sales team is losing deals because buyers require GDPR and SOC 2 evidence, and our current audit prep is manual and slow.
+Trusted by 700 companies worldwide.

@@ -1,0 +1,24 @@
+{
+ "extract": {
+  "finlytic.example": {"company":"Finlytic","product":"underwriting API platform","is_saas":true,"stage":"Series B","employees":120,"compliance_signals":["SOC 2 Type II requested by enterprise customers","audit readiness programme started"]},
+  "cartwheel.example": {"company":"Cartwheel","product":"shipment tracking software","is_saas":true,"stage":"Series A","employees":45,"compliance_signals":["ISO 27001 required in retail procurement"]},
+  "brickbox.example": {"company":"BrickBox","product":"furniture retail","is_saas":false,"stage":null,"employees":85,"compliance_signals":[]},
+  "orbitdocs.example": {"company":"OrbitDocs","product":"classroom document editor","is_saas":true,"stage":"Seed","employees":8,"compliance_signals":[]},
+  "zenstack.example": {"company":"Zenstack","product":"observability software","is_saas":true,"stage":"Series C","employees":400,"compliance_signals":["GDPR and SOC 2 evidence required by buyers","manual audit prep"]}
+ },
+ "qualify": {
+  "finlytic.example": {"score":86,"reason":"Series B SaaS, SOC 2 pressure from enterprise customers","needs_more":false},
+  "cartwheel.example": {"score":78,"reason":"Series A SaaS, ISO 27001 blocking procurement","needs_more":false},
+  "brickbox.example": {"score":12,"reason":"Furniture retailer, not SaaS","needs_more":false},
+  "orbitdocs.example": {"score":35,"reason":"Seed stage, 8 people, no compliance pressure yet","needs_more":false},
+  "zenstack.example": {"score":74,"reason":"Series C SaaS, GDPR and SOC 2 buyer pressure","needs_more":false}
+ },
+ "qualify_more": {},
+ "draft": {
+  "finlytic.example": {"pain_points":["SOC 2 Type II evidence collection across a 120-person team","Enterprise deals stalling on security questionnaires"],"subject":"Finlytic's SOC 2 Type II, before the next enterprise review","body":"Hi Rhea,\n\nSaw that Finlytic's enterprise customers now want SOC 2 Type II before signing. Teams at your stage usually lose weeks to evidence collection.\n\nWould a 20-minute walkthrough of how others got audit-ready in 90 days be useful?\n\nEkta"},
+  "cartwheel.example": {"pain_points":["ISO 27001 blocking enterprise renewals","No in-house compliance owner at 45 people"],"subject":"ISO 27001 as a condition of renewal at Cartwheel","body":"Hi Arjun,\n\nTwo of your enterprise accounts making ISO 27001 a renewal condition is a hard clock for a Series A team.\n\nOpen to a short call on getting certified without hiring a compliance team?\n\nEkta"},
+  "zenstack.example": {"pain_points":["Manual audit prep slowing enterprise deals","GDPR evidence requests from European buyers"],"subject":"GDPR and SOC 2 evidence for Zenstack's enterprise buyers","body":"Hi Kavita,\n\nZenstack's European buyers asking for GDPR and SOC 2 evidence while audit prep is still manual is usually where deals slip.\n\nWorth 20 minutes to see how automation cuts that cycle?\n\nEkta"},
+  "brickbox.example": {"pain_points":["n/a","n/a"],"subject":"Hello BrickBox","body":"Hi team,\n\nWe help companies with compliance. Interested?\n\nEkta"},
+  "orbitdocs.example": {"pain_points":["n/a","n/a"],"subject":"Compliance for OrbitDocs","body":"Hi team,\n\nWe help startups get certified. Interested?\n\nEkta"}
+ }
+}
