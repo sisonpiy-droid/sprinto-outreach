@@ -13,7 +13,7 @@ def fetch(domain, path="home"):
         url = f"https://{domain}/" + ("" if path == "home" else path)
         html = requests.get(url, timeout=10).text
         return clean(html)
-    except:
+    except Exception:
         return ""
 
 

@@ -16,6 +16,6 @@ def ask(step, domain, prompt):
     resp = client.models.generate_content(
         model=config.MODEL,
         contents=prompt,
-        config={"temperature": config.TEMPERATURE},
+        config={"temperature": config.TEMPERATURE, "response_mime_type": "application/json"},
     )
     return json.loads(resp.text)

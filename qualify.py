@@ -16,7 +16,8 @@ def qualify(domain, company):
     rounds = 0
     while result["needs_more"] and rounds < config.MAX_ROUNDS:
         more = scrape.fetch(domain, "about")
-        company = {**company, **extract.extract(domain, more)}
+        new = extract.extract(domain, more) if more else {}
+        company = {**company, **{k: v for k, v in new.items() if v is not None}}
         result = llm.ask("qualify_more", domain, PROMPT.format(company=company))
         rounds += 1
     result["qualified"] = result["score"] >= config.QUALIFY_THRESHOLD
