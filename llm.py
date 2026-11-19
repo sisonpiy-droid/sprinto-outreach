@@ -1,15 +1,16 @@
 import json
 from pathlib import Path
+
 import config
 
 _CANNED = Path(__file__).parent / "fixtures" / "llm_responses.json"
 
 
-def ask(step, domain, prompt):
-    """Return the model's JSON reply as a dict."""
+def ask(step, domain, prompt, key=None):
+    """Return the model's JSON reply as a dict. key picks the sub-reply (e.g. which page was read)."""
     if config.OFFLINE:
-        canned = json.loads(_CANNED.read_text())
-        return canned[step][domain]
+        reply = json.loads(_CANNED.read_text(encoding="utf-8"))[step][domain]
+        return reply[key] if key else reply
 
     from google import genai
     client = genai.Client(api_key=config.API_KEY)

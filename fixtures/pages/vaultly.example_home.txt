@@ -1,0 +1,2 @@
+Vaultly gives engineering teams a secrets manager with audit logs and role based access. Subscription plans for companies of every size.
+SOC 2 Type II and ISO 27001 certified. Series B, 150 employees.

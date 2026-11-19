@@ -1,6 +1,9 @@
 domain,name,title,email
+finlytic.example,Maya Shah,Marketing Manager,maya@finlytic.example
 finlytic.example,Rhea Menon,Head of Security,rhea@finlytic.example
+cartwheel.example,Neel Das,Office Manager,neel@cartwheel.example
 cartwheel.example,Arjun Iyer,CTO,arjun@cartwheel.example
+zenstack.example,Tom Reed,Account Manager,tom@zenstack.example
 zenstack.example,Kavita Rao,VP Engineering,kavita@zenstack.example
-brickbox.example,Dev Malhotra,Store Manager,dev@brickbox.example
 orbitdocs.example,Sana Qureshi,Founder,sana@orbitdocs.example
+brickbox.example,Dev Malhotra,Store Manager,dev@brickbox.example

@@ -1,0 +1,1 @@
+Security at Finlytic: our SOC 2 Type II audit is in progress and we expect our report by year end. We do not yet hold an independent security certification.
